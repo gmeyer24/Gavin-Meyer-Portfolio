@@ -1,14 +1,14 @@
 import React from "react";
 
 export default function Resume() {
-  const resumePath = "/path/to/your/resume.pdf";
+  const resumeLink = "https://docs.google.com/document/d/1bxxkxIrs2Z-ziNNkrcaHj0-7sqVQ9MLT/edit?usp=sharing&ouid=107619649582159816173&rtpof=true&sd=true";
   return (
     <div>
       <h1>Resume</h1>
       <p>
-        Download my Resume:{" "}
-        <a href={resumePath} download="Gavin Meyer-Resume.pdf">
-           Click Here
+        {" "}
+        <a href={resumeLink} target="_blank">
+           View Resume
         </a>
       </p>
       <h2>TECHNICAL SKILLS</h2>
@@ -21,3 +21,5 @@ export default function Resume() {
     </div>
   );
 }
+
+
