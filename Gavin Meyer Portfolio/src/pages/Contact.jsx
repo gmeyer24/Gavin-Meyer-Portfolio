@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Contact.css";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -62,17 +63,19 @@ export default function Contact() {
   };
 
   return (
-    <div>
-      <h1>Contact Form</h1>
-      <form onSubmit={handleSubmit}>
-        Name:{" "}
-        <input
-          type="text"
-          value={name}
-          onChange={handleNameChange}
-          onBlur={() => handleBlur("name")}
-        />
-        {nameError && <p style={{ color: "red" }}>{nameError}</p>}
+    <div className="contact-container p-3 py-md-5 px-md-3">
+      <h1 className="mb-4">Contact Form</h1>
+      <form className="contact-form" onSubmit={handleSubmit}>
+        <label>
+          Name:{" "}
+          <input
+            type="text"
+            value={name}
+            onChange={handleNameChange}
+            onBlur={() => handleBlur("name")}
+          />
+        </label>
+        {nameError && <p className="error-message">{nameError}</p>}
         Email:{" "}
         <input
           type="email"
@@ -80,21 +83,25 @@ export default function Contact() {
           onChange={handleEmailChange}
           onBlur={() => handleBlur("email")}
         />
-        {emailError && <p style={{ color: "red" }}>{emailError}</p>}
+        {emailError && <p className="error-message">{emailError}</p>}
         Message:{" "}
-        <input
+        <textarea
           type="text"
+          className="message-input"
           value={message}
           onChange={handleMessageChange}
           onBlur={() => handleBlur("message")}
         />
-        {messageError && <p style={{ color: "red" }}>{messageError}</p>}
-        <button type="submit">Submit</button>
+        {messageError && <p className="error-message">{messageError}</p>}
+        <div className="submit-container">
+          <button type="submit">Submit</button>
+        </div>
       </form>
-      <div>
+      {/* <div className="contact-info">
         <h2>My Contact Information</h2>
-        <p>Email: gpmeyer24@gmail.com Cell: 815-353-9474</p>
-      </div>
+        <p>Email: gpmeyer24@gmail.com</p> 
+        <p>Cell: 815-353-9474</p>
+      </div> */}
     </div>
   );
 }

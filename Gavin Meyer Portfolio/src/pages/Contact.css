@@ -1,0 +1,58 @@
+.contact-container {
+  max-width: 800px; /* Adjust the value based on your design preference */
+  margin: 20px auto; /* Center the container */
+  padding: 20px;
+  min-height: calc(100vh - 120px);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 8px;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  height: 150px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.contact-form .message-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  height: 150px;
+  resize: vertical;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: left;
+}
+
+.contact-form button {
+  width: 150px;
+  padding: 8px;
+  margin-top: 16px auto 0;
+}
+
+.error-message {
+  color: red;
+  margin-top: 4px;
+}
+
+body {
+  min-height: calc(100vh - 120px);
+}
