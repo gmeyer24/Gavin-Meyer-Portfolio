@@ -5,14 +5,14 @@ import "./Navbar.css";
 
 export default function Nav() {
 
-  const [toggleCollapsed, setToggleCollapsed] = useState(false);
+  const [toggleCollapsed, setToggleCollapsed] = useState(true);
 
   const handleToggleClick = () => {
     setToggleCollapsed(!toggleCollapsed);
   };
 
   const handleLinkClick = () => {
-    setToggleCollapsed(false);
+    setToggleCollapsed(true);
   };
 
   // The Navbar UI component will render each of the Link elements in the links prop
