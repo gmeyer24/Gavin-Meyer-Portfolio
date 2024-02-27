@@ -7,18 +7,7 @@ import "./Project.css";
 export default function Project({ name, githubLink, deployedLink, image }) {
   const containerImage = {
     backgroundImage: `url(/images/${image})`,
-    // backgroundSize: "cover",
-    // backgroundPosition: "center",
-    // textAlign: "left",
-    // padding: "20px",
-    // height: "300px",
   };
-
-  // const projectNameStyle = {
-  //   color: "white",
-  //   textShadow: '2px 2px 0 black',
-  //   width: '100%'
-  // };
 
   return (
     <div className="container my-4 project-container" style={containerImage}>

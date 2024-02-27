@@ -1,11 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import "./Footer.css";
 
 export default function Footer() {
   return (
-  <footer className="bg-dark text-light py-3 text-center fixed-bottom mt-5">
+  <footer className="bg-dark text-light py-3 text-center mt-5">
       <div className="container footer-icons">
         <a
           href="https://github.com/gmeyer24"
@@ -22,11 +22,11 @@ export default function Footer() {
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
-          href="https://instagram.com/gpmeyer24"
+          href="https://twitter.com/gmeyer24"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faXTwitter} />
         </a>
       </div>
   </footer>

@@ -1,13 +1,11 @@
 .footer-icons a {
-   color: white;
+  color: white;
   font-size: 2rem;
   margin: 0 10px;
   transition: color 0.3s, transform 0.3s;
-  }
-  
-  .footer-icons a:hover {
-    transform: scale(1.5);
-    color: #007bff;
-  }
+}
 
-  
+.footer-icons a:hover {
+  transform: scale(1.5);
+  color: #007bff;
+}

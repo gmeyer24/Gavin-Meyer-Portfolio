@@ -1,21 +1,18 @@
-/* .resume-container {
-    padding: 20px;
-  }
-   */
-  .resume-link {
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  .resume-link:hover {
-    color: #007bff;
-  }
-  
-  .resume-heading {
-    font-weight: bold;
-  }
+.resume-container {
+  min-height: 100vh; /* Ensure container takes up at least the viewport height */
+}
 
-  
-  
+.resume-link {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.resume-link:hover {
+  color: #007bff;
+}
+
+.resume-heading {
+  font-weight: bold;
+}

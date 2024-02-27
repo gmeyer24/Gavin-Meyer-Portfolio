@@ -4,8 +4,9 @@ import "./Resume.css";
 export default function Resume() {
   const resumeLink =
     "https://docs.google.com/document/d/1bxxkxIrs2Z-ziNNkrcaHj0-7sqVQ9MLT/edit?usp=sharing&ouid=107619649582159816173&rtpof=true&sd=true";
+
   return (
-    <div className="container py-3">
+    <div className="container px-3 p-3 py-md-5 px-md-3 resume-container">
       <h1 className="mb-4">Resume</h1>
       <p>
         {" "}

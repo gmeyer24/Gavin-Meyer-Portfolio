@@ -1,23 +1,23 @@
 .max-width-container {
-    max-width: 2000px; /* Adjust the value based on your design preference */
-    margin: 0 auto; /* Center the container */
-  }
+  max-width: 2000px; /* Adjust the value based on your design preference */
+  margin: 0 auto; /* Center the container */
+}
 
-  .navbar {
-    padding: 2rem;
-  }
-  
-  .navbar-brand {
-    font-size: 40px;
-  }
-  
-  .navbar-nav .nav-link {
-    font-size: 1.2rem;
-    margin-right: 1rem;
-  }
+.navbar {
+  padding: 2rem;
+}
 
-  .navbar-nav .nav-link.active {
-    font-weight: bold;
-    text-decoration: underline;
-    color: white;
-  }
+.navbar-brand {
+  font-size: 40px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+}

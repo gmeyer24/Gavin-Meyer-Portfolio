@@ -62,21 +62,3 @@ export default function Nav() {
     </nav>
   );
 }
-
-// <header className="bg-dark text-light p-3 fixed-top">
-//   <div className="container-fluid">
-//     <div className="row align-items-center">
-//       <div className="col-lg-3 col-md-6 mb-2 mb-md-0 mx-auto">
-//         <h1>Gavin Meyer</h1>
-//         </div>
-//       <div className="col-lg-9 col-md-6 text-md-end mx-auto">
-//         <nav>
-//           <Link to="/" className="text-light me-3">About</Link>
-//           <Link to="portfolio" className="text-light me-3">Portfolio</Link>
-//           <Link to="contact" className="text-light me-3">Contact</Link>
-//           <Link to="resume" className="text-light me-3">Resume</Link>
-//         </nav>
-//       </div>
-//     </div>
-//   </div>
-// </header>

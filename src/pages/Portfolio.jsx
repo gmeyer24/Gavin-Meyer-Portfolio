@@ -1,7 +1,7 @@
 import Project from "../components/Project";
 
 export default function Portfolio() {
-  // maybe use an object for the project
+  // use an object for the project
   const projects = [
     {
       id: 1,
@@ -51,24 +51,7 @@ export default function Portfolio() {
       image: "p6.jpg",
     },
   ];
-  //   return (
-  //     <>
-  //       <h1>Portfolio</h1>
 
-  //       {projects.map((project) => (
-  //         <Project
-  //           key={project.id}
-  //           name={project.name}
-  //           githubLink={project.githubLink}
-  //           deployedLink={project.deployedLink}
-  //           image={project.image}
-  //         />
-  //       ))}
-  //     </>
-  //   );
-  // }
-
-//   the below uses bootstrap and allows for the projects to be 2 to a row
   return (
     <>
       <div>

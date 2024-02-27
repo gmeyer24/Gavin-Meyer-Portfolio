@@ -97,11 +97,6 @@ export default function Contact() {
           <button type="submit">Submit</button>
         </div>
       </form>
-      {/* <div className="contact-info">
-        <h2>My Contact Information</h2>
-        <p>Email: gpmeyer24@gmail.com</p> 
-        <p>Cell: 815-353-9474</p>
-      </div> */}
     </div>
   );
 }

@@ -1,19 +1,17 @@
 body {
-    margin-top: 150px; /* Adjust the value based on your design preference */
-  }
+  margin-top: 150px; /* Adjust the value based on your design preference */
+}
 
-  .contact-info {
-    margin-top: 20px;
-    text-align: left;
-  }
+.contact-info {
+  margin-top: 20px;
+  text-align: left;
+}
 
-  .contact-info p {
-    display: block; /* Make each paragraph block-level */
-    margin: 8px 0; /* Add margin between paragraphs */
-  }
+.contact-info p {
+  display: block; /* Make each paragraph block-level */
+  margin: 8px 0; /* Add margin between paragraphs */
+}
 
-  .contact-text {
-    padding-bottom: 5rem;
-  }
-
-  
+.contact-text {
+  padding-bottom: 5rem;
+}

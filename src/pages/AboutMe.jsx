@@ -28,11 +28,11 @@ export default function AboutMe() {
         </p>
       </div>
       <div className="contact-info container my-2 pb-5">
-       <div className="contact-text pb-5">
+        <div className="contact-text pb-5">
           <h2>My Contact Information</h2>
           <p>Email: gpmeyer24@gmail.com</p>
           <p>Cell: 815-353-9474</p>
-       </div>
+        </div>
       </div>
     </div>
   );
