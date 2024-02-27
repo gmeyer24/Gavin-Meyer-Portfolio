@@ -1,4 +1,4 @@
-import myProfilePicture from "../../public/images/headshot.jpeg";
+import myProfilePicture from "../../src/assets/images/headshot.jpeg";
 import "./AboutMe.css";
 
 export default function AboutMe() {
