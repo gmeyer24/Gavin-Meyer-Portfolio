@@ -159,11 +159,10 @@ This is an example of how to list things you need to use the software and how to
 
 ### Walkthrough Video Link
 
-[![Walktrhough Video](screen-shot)](link)
+[![Walktrhough Video](assets/images/walkthrough.png)](https://drive.google.com/file/d/10Ckc6oyTkQnm2oKKvRKzNtm3fp5LNjvy/view)
 
 
 <p align="right">(<a href="#readme-top">Back To Top</a>)</p>
-
 
 
 <!-- ROADMAP -->
