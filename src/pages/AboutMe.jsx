@@ -32,6 +32,7 @@ export default function AboutMe() {
           <h2>My Contact Information</h2>
           <p>Email: gpmeyer24@gmail.com</p>
           <p>Cell: 815-353-9474</p>
+          <p>GitHub: gmeyer24</p>
         </div>
       </div>
     </div>
