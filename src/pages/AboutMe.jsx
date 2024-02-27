@@ -3,7 +3,7 @@ import "./AboutMe.css";
 
 export default function AboutMe() {
   return (
-    <div className="mx-auto">
+    <div className="mx-auto  about-container">
       <div className="container px-3 p-3 py-md-5 px-md-3">
         <h1 className="mb-4">About Me</h1>
         <img

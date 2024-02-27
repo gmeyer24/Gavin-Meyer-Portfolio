@@ -15,3 +15,7 @@ body {
 .contact-text {
   padding-bottom: 5rem;
 }
+
+.about-container {
+  min-height: 100vh; /* Ensure container takes up at least the viewport height */
+}
