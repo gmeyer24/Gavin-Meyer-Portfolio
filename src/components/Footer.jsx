@@ -21,13 +21,13 @@ export default function Footer() {
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a
+        {/* <a
           href="https://twitter.com/gmeyer24"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faXTwitter} />
-        </a>
+        </a> */}
       </div>
   </footer>
   );

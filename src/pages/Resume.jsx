@@ -3,7 +3,7 @@ import "./Resume.css";
 
 export default function Resume() {
   const resumeLink =
-    "https://docs.google.com/document/d/1bxxkxIrs2Z-ziNNkrcaHj0-7sqVQ9MLT/edit?usp=sharing&ouid=107619649582159816173&rtpof=true&sd=true";
+    "https://docs.google.com/document/d/11Z5zGskBtD4bgUPBDtF6ZreUNR77pw5Y/edit?usp=sharing&ouid=107619649582159816173&rtpof=true&sd=true";
 
   return (
     <div className="container px-3 p-3 py-md-5 px-md-3 resume-container">
@@ -17,7 +17,7 @@ export default function Resume() {
       <h2 className="resume-heading">TECHNICAL SKILLS</h2>
       <ul>
         <li>
-          <strong>Languages:</strong> JavaScript, HTML/CSS, SQL, JSON
+          <strong>Languages:</strong> JavaScript, HTML/CSS, SQL, JSON, Python
         </li>
         <li>
           <strong>Database Management:</strong> MySQL, MongoDB

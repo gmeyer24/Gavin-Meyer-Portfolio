@@ -6,20 +6,27 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
+      name: "Happy Hour Uncoded",
+      githubLink: "https://github.com/Project3Team1GPR/Happy-Hour-Heros",
+      deployedLink: "https://project-3-team-1.onrender.com/",
+      image: "p1.jpg",
+    },
+    {
+      id: 2,
       name: "NETFLEX",
       githubLink: "https://github.com/Project2Team1GPR/NETFLEX",
       deployedLink: "https://project2-team1-netflex.onrender.com/login",
       image: "p1.jpg",
     },
     {
-      id: 2,
+      id: 3,
       name: "Recipe-Fit",
       githubLink: "https://github.com/Project1Team1GPR/Recipe-Fit",
       deployedLink: "https://project1team1gpr.github.io/Recipe-Fit/",
       image: "p2.jpg",
     },
     {
-      id: 3,
+      id: 4,
       name: "Gavin's Tech Blog",
       githubLink:
         "https://github.com/gmeyer24/HW14-Model-View-Controller--MVC--Tech-Blog",
@@ -27,14 +34,14 @@ export default function Portfolio() {
       image: "p3.jpg",
     },
     {
-      id: 4,
+      id: 5,
       name: "Express.js Note Taker",
       githubLink: "https://github.com/gmeyer24/HW11-Express.js-Note-Taker",
       deployedLink: "https://express-note-taker-eatb.onrender.com/",
       image: "p4.jpg",
     },
     {
-      id: 5,
+      id: 6,
       name: "Server-Side APIs Weather Dashboard",
       githubLink:
         "https://github.com/gmeyer24/HW06-Server-Side-APIs-Weather-Dashboard?tab=readme-ov-file",
@@ -43,7 +50,7 @@ export default function Portfolio() {
       image: "p5.jpg",
     },
     {
-      id: 6,
+      id: 7,
       name: "Third-Party APIs Work-Day Scheduler",
       githubLink:
         "https://github.com/gmeyer24/HW05-Third-Party-APIs-Work-Day-Scheduler?tab=readme-ov-file",

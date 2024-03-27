@@ -13,18 +13,7 @@ export default function AboutMe() {
           className="mb-4"
         />
         <p>
-          Professional Full Stack Developer with demonstrated experience across
-          the Software Development Lifecycle (SDLC), emphasized in JavaScript as
-          my primary Object-Oriented Programming Language (OOP). Earning a
-          certificate in Full Stack Web Development from Northwestern University
-          to hone skills in Web Development. Highly knowledgeable in diverse
-          areas of innovation and problem solving, utilizing creative strategies
-          to help clients. Key team player with excellent interpersonal
-          communication skills, establishing and maintaining strong
-          relationships with both colleagues and clients. Strong ability to
-          multi-task while applying time management skills to reach company
-          goals. Highly motivated, organized and detail driven, pro-actively
-          seeking opportunities for personal and career development.
+        Professional Full Stack Developer and Data Analyst with a focus on the Software Development Lifecycle (SDLC) and proficiency in JavaScript as my primary Object-Oriented Programming Language (OOP). Earned a Full Stack Web Development Certificate from Northwestern University, enhancing skills in web development and data analytics. Strong background in innovation and creative problem-solving with a track record of successful client collaboration. A key team player with excellent interpersonal communication skills, adept at multitasking and applying effective time management to achieve company goals. Motivated, organized and detail driven, actively seeking opportunities for personal and career development.
         </p>
       </div>
       <div className="contact-info container my-2 pb-5">
